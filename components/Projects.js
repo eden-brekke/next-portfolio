@@ -1,11 +1,12 @@
 import React from 'react';
 import Image from 'next/image'
+import codle from '../assets/codlecloseup.png'
 
 export default function Projects() {
   return (
     <section className="bg-gray-50 dark:bg-gray-800">
       <div className="max-w-6xl mx-auto h-48 bg-gray-50 dark:bg-gray-800">
-        <h1 className="text-5xl md:text-9xl font-bold py-20 text-center md:text-left">
+        <h1 className="text-5xl md:text-9xl font-bold py-20 text-center md:text-left text-gray-50">
           Projects
         </h1>
       </div>
@@ -18,8 +19,10 @@ export default function Projects() {
           >
             <div className="relative overflow-hidden">
               <Image
-                src='../assets/codle.png'
+                src={codle}
                 alt="codle"
+                width="500"
+                height="700"
                 className="transform hover:scale-125 transition duration-2000 ease-out"
                 />
                 <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
