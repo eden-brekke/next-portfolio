@@ -14,5 +14,30 @@ export default function ContainerBlock({ children, ...customMeta }){
     type: 'website',
     ...customMeta,
   };
-  
+  return (
+    <div>
+      <Head>
+        <title>{meta.title}</title>
+        <meta name = 'robots' content = 'follow, index' />
+        <meta content = {meta.description} name = "description" />
+        <meta
+          property="og:url"
+          content={`https://localhost:3000${router.asPath}`}
+          />
+        <link 
+        rel = 'cannonical'
+        href= {`https://localhost:3000${router.asPath}`}
+        />
+        <meta property = "og:title" content ={meta.title} />
+        <meta property = "og:description" content ={meta.description} />
+        <meta property = "og:site_name" content = "Eden Brekke" />
+        <meta property = "og:image" content ={meta.image} />
+        <meta property = "og:type" content ={meta.type} />
+        {meta.date && (
+          <meta property="article:published_time" content={meta.date} />
+        )}
+      </Head>
+
+    </div>
+  );
 }
