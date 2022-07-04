@@ -16,17 +16,17 @@ export default function Navbar(){
   return (
     <div className='max-w-6xl mx-auto px-4 py-10 md:py-20'>
       <div className='flex md:flex-row justify-between items-center'>
-        <Link href="/"><a>Home</a></Link>
-        <Link href='/about'><a>About</a></Link>
-        <Link href='/contact'><a>Contact</a></Link>
-        <Link href='/projects'><a>Projects</a></Link>
-        <Link href='/experience'><a>Experience</a></Link>
+        <Link href="/"><a className='px-2 rounded-md py-1 text-gray-900 underline bg-teal-300 hover:bg-pink-400 hover:text-gray-900'>Home</a></Link>
+        <Link href='/about'><a className='px-2 rounded-md py-1 text-gray-900 underline bg-teal-300 hover:bg-pink-400 hover:text-gray-900'>About</a></Link>
+        <Link href='/contact'><a className='px-2 rounded-md py-1 text-gray-900 underline bg-teal-300 hover:bg-pink-400 hover:text-gray-900'>Contact</a></Link>
+        <Link href='/projects'><a className='px-2 rounded-md py-1 text-gray-900 underline bg-teal-300 hover:bg-pink-400 hover:text-gray-900'>Projects</a></Link>
+        <Link href='/experience'><a className='px-2 rounded-md py-1 text-gray-900 underline bg-teal-300 hover:bg-pink-400 hover:text-gray-900'>Experience</a></Link>
         <button 
           aria-label = "Toggle Dark Mode"
           type = "button"
-          className="w-10 h-10 p-3 rounded focus:outline-none"
+          className="w-fit h-fit p-3 rounded focus:outline-none bg-gray-600 text-gray-50"
           onClick={() => setTheme(theme === "dark" ? "light" : "dark")} 
-        >
+        > Switch Theme
           {mounted && (
             <svg 
               xmlns="http://www.w3.org/2000/svg"
