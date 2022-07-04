@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        
+        <title>Eden&apos;s Portfolio</title>
       </Head>
 
       <main >
