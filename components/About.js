@@ -1,0 +1,5 @@
+export default function About(){
+  return(
+    <h1>About Placeholder</h1>
+  )
+}
