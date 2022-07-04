@@ -16,8 +16,11 @@ export default function Navbar(){
   return (
     <div className='max-w-6xl mx-auto px-4 py-10 md:py-20'>
       <div className='flex md:flex-row justify-between items-center'>
-        {/* logo / home/ text */}
-        {/* rest of the code here */}
+        <Link href="/"><a>Home</a></Link>
+        <Link href='/about'><a>About</a></Link>
+        <Link href='/contact'><a>Contact</a></Link>
+        <Link href='/projects'><a>Projects</a></Link>
+        <Link href='/experience'><a>Experience</a></Link>
         <button 
           aria-label = "Toggle Dark Mode"
           type = "button"
