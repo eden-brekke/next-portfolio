@@ -6,9 +6,7 @@ import Footer from '../components/Footer';
 function MyApp({ Component, pageProps }) {
   return (
     <ThemeProvider defaultTheme="light" attribute="class">
-      <Navbar />
       <Component {...pageProps} />
-      <Footer />
     </ThemeProvider>
   );
 }
