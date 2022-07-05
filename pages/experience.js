@@ -1,7 +1,11 @@
-import Experience from '../components/Experience';
+import React from "react";
+import ContainerBlock from "../components/ContainerBlock";
+import Experience from "../components/Experience";
 
-export default function ContactPath() {
+export default function experience() {
   return (
-    <Experience />
-  )
+    <ContainerBlock title="Experience - Eden Brekke">
+      <Experience />
+    </ContainerBlock>
+  );
 }
