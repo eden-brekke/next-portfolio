@@ -1,7 +1,11 @@
-import Contact from '../components/Contact';
+import React from "react";
+import ContainerBlock from "../components/ContainerBlock";
+import Contact from "../components/Contact";
 
-export default function ContactPath() {
+export default function contact() {
   return (
-    <Contact />
-  )
+    <ContainerBlock>
+      <Contact />
+    </ContainerBlock>
+  );
 }
