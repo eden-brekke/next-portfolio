@@ -1,7 +1,11 @@
-import Projects from '../components/Projects';
+import React from "react";
+import ContainerBlock from "../components/ContainerBlock";
+import Projects from "../components/Projects";
 
-export default function ContactPath() {
+export default function projects() {
   return (
-    <Projects />
-  )
+    <ContainerBlock title="Projects - Eden Brekke">
+      <Projects />
+    </ContainerBlock>
+  );
 }
