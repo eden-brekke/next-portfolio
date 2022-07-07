@@ -54,13 +54,12 @@ import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 import { RainbowHighlight } from "./RainbowHighlight";
 import userData from "../constants/data";
 import Image from 'next/image'
-import avatarUrl from "../assets/eden-medium-size.png"
+import avatarUrl from "../assets/flipped_photo.png"
 
 export default function Hero() {
   const colors = ["#CDB4DB", "#FFC8DD", "#FFAFCC", "#BDE0FE", "#A2D2FF"];
   return (
     <div className="flex flex-row justify-center items-start overflow-hidden">
-      {/* Text container */}
 
       <div className="w-full md:w-1/2 mx-auto text-center md:text-left lg:p-20">
         <RoughNotationGroup show={true}>
