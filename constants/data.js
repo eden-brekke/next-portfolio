@@ -2,7 +2,7 @@ const userData = {
   githubUsername: "eden-brekke",
   name: "Eden Brekke",
   designation: "Full-Stack Developer",
-  avatarUrl: "/../assets/eden-medium-size.png",
+  avatarUrl: "/../assets/picture_for_codle_aboutus.png",
   email: "eden.lorrai@gmail.com",
   phone: "(425)-891-4115",
   address: "Seattle, WA",
