@@ -1,57 +1,12 @@
-// import Image from 'next/image'
-// import punk from '../assets/pumpkinbanner.png'
-// import eden from '../assets/itsme.png'
-// import mikeynme from '../assets/mikeynme.jpg'
-// import punkers from '../assets/punkers.jpg'
-// import jackingtons from '../assets/jackingtons.jpg'
+import Image from 'next/image'
+import punk from '../assets/pumpkinbanner.png'
+import eden from '../assets/itsme.png'
+import mikeynme from '../assets/mikeynme.jpg'
+import punkers from '../assets/punkers.jpg'
+import jackingtons from '../assets/jackingtons.jpg'
+import python from '../assets/python.png'
 
-// export default function About(){
-//   return(
-//     <>
-//     <div className="pt-2" style={{ position: 'relative', width: '100vw', height: '20vw' }}>
-//     <h1 className="text-7xl z-10 " style={{ position: 'absolute',left:'20%', opacity: '1'}}>About Eden </h1> 
-//     <Image
-//     src={punk}
-//     layout="fill"
-//     objectFit="cover"
-//     alt="Pumpkin Banner"
-//     style={{opacity:'1', zIndex:'-1'}}
-//     priority
-//   />
-//   </div>
-//   <div>
-//     <p>Some cool Text about Eden</p>
-//     <Image 
-//     src={eden}
-//     width={300} 
-//     height={300}
-//     alt="eden headshot"
-//     />
-//   </div>
-//   <div>
-//     <p> the Most important beings in my life</p>
-//     <Image 
-//     src={mikeynme}
-//     width={300} 
-//     height={300}
-//     alt="eden headshot"
-//     />
-//     <Image 
-//     src={jackingtons}
-//     width={300} 
-//     height={300}
-//     alt="eden headshot"
-//     />
-//     <Image 
-//     src={punkers}
-//     width={300} 
-//     height={300}
-//     alt="eden headshot"
-//     />
-//   </div>
-//   </>
-//   )
-// }
+
 import React from "react";
 import userData from "../constants/data";
 
@@ -166,13 +121,11 @@ export default function AboutMe() {
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"
                 className="h-20 w-20 mx-4 my-4"
               />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"
-                className="h-20 w-20 mx-4 my-4"
+              <Image
+                src={python}
+                alt='python'
+                width={100}
+                height={20}
               />
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"
@@ -183,27 +136,11 @@ export default function AboutMe() {
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/angular/angular.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/vue/vue.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png"
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
@@ -217,3 +154,5 @@ export default function AboutMe() {
     </section>
   );
 }
+// Have CSS JavaScript HTML git react and mongo
+// Need: Github Heroku Docker Django Netlify nextjs node python expressJS windows vscode vercel 
