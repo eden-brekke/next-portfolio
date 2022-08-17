@@ -9,23 +9,23 @@ const userData = {
   projects: [
     {
       title: "Smells Like Devs Cooking",
-      link: "",
-      imgUrl: "",
+      link: "https://smells-like-devs-cooking-frontend-rho.vercel.app/",
+      imgUrl: "/../assets/devsLanding.png",
     },
     {
       title: "Tech Spotlight",
-      link: "",
+      link: "https://www.kaggle.com/code/edenbrekke/tech-spotlight-indeed-data-18may2022/notebook",
       imgUrl: "",
     },
     {
       title: "CODLE",
-      link: "",
-      imgUrl: "",
+      link: "https://team-salt-lake-city.github.io/code-wordle/",
+      imgUrl: "/../assets/codlecloseup.png",
     },
     {
       title: "YourSpace",
-      link: "",
-      imgUrl: "",
+      link: "https://github.com/the-golden-order",
+      imgUrl: "/../assets/yourspacehomepage.png",
     },
   ],
   about: {
@@ -46,6 +46,13 @@ const userData = {
       year: "2022",
       companyLink: "https://www.codefellows.org/",
       desc: "Received a certificate for Full Stack Development with an emphasis in Python language.",
+    },
+    {
+      title: "Lab Manager",
+      company: "University of Washington: Department of Microbiology",
+      year: "2019",
+      companyLink: "https://www.washington.edu/",
+      desc: "Worked in Hyde Lab at the University of Washington, studying RNA Structure and Alphavirus: Venezuelan Equine Encephalitis Virus(VEEV).",
     },
     {
       title: "Student",
