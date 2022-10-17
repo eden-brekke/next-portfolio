@@ -1,10 +1,14 @@
 import Image from 'next/image'
-import punk from '../assets/pumpkinbanner.png'
-import eden from '../assets/itsme.png'
-import mikeynme from '../assets/mikeynme.jpg'
-import punkers from '../assets/punkers.jpg'
-import jackingtons from '../assets/jackingtons.jpg'
 import python from '../assets/python.png'
+import github from '../assets/github.png'
+import next from '../assets/next-js.png'
+import node from '../assets/node.png'
+import vscode from '../assets/vscode.png'
+import express from '../assets/ExpressJS-logo.png'
+import django from '../assets/django.png'
+import docker from '../assets/docker.png'
+import vercel from '../assets/vercel.png'
+import netlify from '../assets/netlify.png'
 
 
 import React from "react";
@@ -25,13 +29,6 @@ export default function AboutMe() {
             style={{ lineHeight: "3rem" }}
           >
             {userData.about.title}
-            {/* Currently working on{" "} */}
-            {/* <a 
-              className="bg-red-500 rounded-md px-2 py-1 text-white"
-              href={userData.about.currentProjectUrl}
-             > */}
-              {/* {userData.about.currentProject} ✈️ */}
-            {/* </a> */}
           </p>
         </div>
       </div>
@@ -44,14 +41,14 @@ export default function AboutMe() {
                 Contact
               </h1>
               <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
-                For any sort help / enquiry, shoot a{" "}
+                For any sort help / enquiry, shoot an{" "}
                 <a
                   href={`mailto:${userData.email}`}
                   className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
                 >
-                  mail
+                  email
                 </a>{" "}
-                and I&apos;ll get back to you as soon as possible
+                and I&apos;ll get back to you as soon as possible!
               </p>
             </div>
             <div className="mt-8">
@@ -66,7 +63,7 @@ export default function AboutMe() {
                   target="__blank"
                   className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
                 >
-                  CV
+                  Resume
                 </a>{" "}
                 and I&apos;d love to work for you.
               </p>
@@ -113,7 +110,7 @@ export default function AboutMe() {
               </p>
             ))}
 
-            <h1 className="bg-red-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">
+            <h1 className="bg-pink-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">
               Tech Stack
             </h1>
             <div className="flex flex-row flex-wrap mt-8">
@@ -147,6 +144,42 @@ export default function AboutMe() {
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png"
                 className="h-20 w-20 mx-4 my-4"
               />
+              <Image
+                src={github}
+                alt='python'
+                width={100}
+                height={20}
+              />
+              <Image
+                src={next}
+                alt='python'
+                width={100}
+                height={20}
+              />
+              <Image
+                src={node}
+                alt='python'
+                width={100}
+                height={20}
+              />
+              <Image
+                src={vscode}
+                alt='python'
+                width={100}
+                height={20}
+              />
+              <Image
+                src={django}
+                alt='python'
+                width={100}
+                height={20}
+              />
+              <Image
+                src={docker}
+                alt='python'
+                width={100}
+                height={20}
+              />
             </div>
           </div>
         </div>
@@ -154,5 +187,3 @@ export default function AboutMe() {
     </section>
   );
 }
-// Have CSS JavaScript HTML git react and mongo
-// Need: Github Heroku Docker Django Netlify nextjs node python expressJS windows vscode vercel 
