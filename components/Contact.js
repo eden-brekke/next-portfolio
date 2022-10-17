@@ -1,7 +1,27 @@
 import React from "react";
+import { useState } from 'react';
 import userData from "../constants/data";
+import { useRouter } from 'next/router';
 
 export default function Contact() {
+  const [name, setName ] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
+  const router = useRouter();
+
+  let handleSubmit = event => {
+    event.preventDefault();
+    const data = {
+      name,
+      email,
+      message,
+    };
+    fetch('/api/contact', {
+      method: 'post',
+      body: JSON.stringify(data),
+    });
+  }
+
   return (
     <section>
       <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-900 antialiased mb-6">
@@ -73,7 +93,7 @@ export default function Contact() {
             <div className="social-icons flex flex-row space-x-8">
             </div>
           </div>
-          <form className="form rounded-lg bg-white p-4 flex flex-col">
+          <form onSubmit={handleSubmit} className="form rounded-lg bg-white p-4 flex flex-col">
             <label htmlFor="name" className="text-sm text-gray-600 mx-4">
               {" "}
               Your Name
@@ -81,6 +101,7 @@ export default function Contact() {
             <input
               type="text"
               className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-pink-500"
+              onChange={e => setName(e.target.value)}
               name="name"
             />
             <label htmlFor="email" className="text-sm text-gray-600 mx-4 mt-4">
@@ -89,6 +110,7 @@ export default function Contact() {
             <input
               type="text"
               className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-pink-500"
+              onChange={e => setEmail(e.target.value)}
               name="email"
             />
             <label
@@ -98,20 +120,24 @@ export default function Contact() {
               Message
             </label>
             <textarea
+              onChange={e => setMessage(e.target.value)}
               rows="4"
               type="text"
               className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-pink-500"
               name="message"
             ></textarea>
             <button
+              onClick={() => router.push('/')}
               type="submit"
               className="bg-pink-500 rounded-md w-1/2 mx-4 mt-8 py-2 text-gray-50 text-xs font-bold"
             >
               Send Message
             </button>
           </form>
+        
         </div>
       </div>
     </section>
+    
   );
 }
