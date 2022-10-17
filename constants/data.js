@@ -18,6 +18,11 @@ const userData = {
       imgUrl: "",
     },
     {
+      title: "Covid19-Data-visualization",
+      link: "https://eden-covid19-viz.netlify.app/",
+      imgUrl: "/../assets/Screenshot.png",
+    },
+    {
       title: "CODLE",
       link: "https://team-salt-lake-city.github.io/code-wordle/",
       imgUrl: "/../assets/codlecloseup.png",
@@ -30,13 +35,13 @@ const userData = {
   ],
   about: {
     title:
-      "I'm a software developer that loves science and technology, and is excited about joining the two passions to push for advancements in medicine.",
+      "I'm a software developer that loves science and technology, I'm excited to break into the world of tech and strengthen my problem solving and organization skills. As well as quench my thirst for knowledge as a forever learner.",
     description: [
       ``,
       ``,
-      `Write about the tech you've learned`,
+      `I've been learning to write in Python and JavaScript and have found a passion for react apps. Excited to keep learning more!`,
     ],
-    currentProject: "",
+    currentProject: "Current Project is my Covid19 Data Visualization project.",
     currentProjectUrl: "",
   },
   experience: [
