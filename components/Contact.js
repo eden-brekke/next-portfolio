@@ -5,11 +5,11 @@ export default function Contact() {
   return (
     <section>
       <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-900 antialiased mb-6">
-        <h1 className=" z-1 text-5xl md:text-9xl font-bold py-20 text-center md:text-left">
+        <h1 className="dark:bg-[#482d4a] z-1 text-5xl md:text-9xl font-bold py-20 text-center md:text-left">
           Contact
         </h1>
       </div>
-      <div className="relative z-0 rounded-md shadow-md bg-pink-200 dark:bg-fuchsia-900 p-4 md:p-10 lg:p-20 max-w-6xl mx-auto mb-20 -mt-4">
+      <div className="relative z-0 rounded-md shadow-md bg-pink-200 dark:bg-[#2E1C2B] p-4 md:p-10 lg:p-20 max-w-6xl mx-auto mb-20 -mt-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="md:ml-4">
             <header className="">
