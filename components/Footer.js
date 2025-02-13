@@ -4,7 +4,7 @@ import userData from "../constants/data";
 
 export default function Footer() {
   return (
-    <div className="bg-[#BDE0FE] dark:bg-black h-30">
+    <div>
       <div className="max-w-6xl  mx-auto px-4 py-10 md:py-20">
         <div className="h-0.5 w-full bg-[#F0A6CA] dark:bg-[#893168]"></div>
         <div className="flex flex-col space-y-4 md:space-y-0 md:flex-row justify-between md:items-center mt-8">
@@ -18,7 +18,7 @@ export default function Footer() {
                 </a>
               </div>
           </div>
-          <div className="space-x-4 flex flex-row items-center"> 
+          <div className="space-x-4 flex flex-row items-center">
             <a
               href={userData.socialLinks.linkedin}
               className="text-base font-normal text-[#F0A6CA] dark:text-[#893168]"

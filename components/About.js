@@ -56,8 +56,7 @@ export default function AboutMe() {
                 Job Opportunities
               </h1>
               <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
-                I&apos;m looking for a job currently, If you see me as a good fit,
-                check my{" "}
+                I&apos;m always open to discussing exciting opportunities! Feel free to connect with me—check out my {" "}
                 <a
                   href={userData.resumeUrl}
                   target="__blank"
@@ -65,7 +64,7 @@ export default function AboutMe() {
                 >
                   Resume
                 </a>{" "}
-                and I&apos;d love to work for you.
+                and reach out. I&apos;d love to hear from you.
               </p>
             </div>
             {/* Social Links */}
@@ -110,7 +109,7 @@ export default function AboutMe() {
               </p>
             ))}
 
-            <h1 className="bg-pink4-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">
+            <h1 className="bg-pink4-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-700 dark:text-gray-50">
               Tech Stack
             </h1>
             <div className="flex flex-row flex-wrap mt-8">

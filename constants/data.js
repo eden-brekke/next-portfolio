@@ -4,7 +4,7 @@ const userData = {
   designation: "Full-Stack Developer",
   avatarUrl: "/../assets/picture_for_codle_aboutus.png",
   email: "eden.lorrai@gmail.com",
-  phone: "(425)-891-4115",
+  phone: "(425)-499-7141",
   address: "Seattle, WA",
   projects: [
     {
@@ -35,22 +35,29 @@ const userData = {
   ],
   about: {
     title:
-      "I'm a software developer that loves science and technology, I'm excited to break into the world of tech and strengthen my problem solving and organization skills. As well as quench my thirst for knowledge as a forever learner.",
+      "I'm a software developer with a strong passion for science and technology, dedicated to solving complex problems and continuously expanding my knowledge. With two years in the industry, I strive to leverage my expertise to drive innovation, improve efficiency, and contribute to both my company’s success and a better world.",
     description: [
       ``,
       ``,
-      `I've been learning to write in Python and JavaScript and have found a passion for react apps. Excited to keep learning more!`,
+      `I specialize in building React TypeScript applications and developing robust backends with Django and Python. Passionate about creating scalable, efficient solutions and always eager to learn more!`,
     ],
     currentProject: "Current Project is my Covid19 Data Visualization project.",
     currentProjectUrl: "",
   },
   experience: [
     {
+      title: "Software Developer",
+      company: "OSec",
+      year: "2023-Present",
+      companyLink: "https://www.osec.com/",
+      desc: "Collaborating with a team to develop a platform that visualizes continuous penetration testing data, helping clients proactively prevent malicious attacks.",
+    },
+    {
       title: "Student",
       company: "Code Fellows",
       year: "2022",
       companyLink: "https://www.codefellows.org/",
-      desc: "Received a certificate for Full Stack Development with an emphasis in Python language.",
+      desc: "Received a certificate for Full Stack Development with an emphasis in React Frontend and Python Django Servers.",
     },
     {
       title: "Lab Manager",
@@ -75,7 +82,7 @@ const userData = {
     },
   ],
   resumeUrl:
-    "https://docs.google.com/document/d/1XhYmuWSI8IvBFxiO4Q8uPOi8lDi-JoiEEuHtjT-C3Sc/edit?usp=sharing",
+    "https://docs.google.com/document/d/1tNLsS-Rl5dPRfsvDS96XfReKlETF93FE0SM4Aui67ho/edit?usp=sharing",
   socialLinks: {
     instagram: "https://instagram.com/",
     twitter: "https://twitter.com/",

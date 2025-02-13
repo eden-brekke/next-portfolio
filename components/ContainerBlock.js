@@ -8,7 +8,7 @@ export default function ContainerBlock({ children, ...customMeta }){
   const router = useRouter();
 
   const meta = {
-    title: "Eden Brekke - Developer, Data Fiend, Scientist and Craftswoman",
+    title: "Eden Brekke - Developer, Scientist, Data Alchemist, Problem Solver",
     description: "I'm a Software Developer with a background and passion for science, and it is my goal to combine my love for science and tech for the advancement of medicine.",
     image: '../assets/eden-medium-size.png',
     type: 'website',
@@ -24,7 +24,7 @@ export default function ContainerBlock({ children, ...customMeta }){
           property="og:url"
           content={`https://localhost:3000${router.asPath}`}
           />
-        <link 
+        <link
         rel = 'cannonical'
         href= {`https://localhost:3000${router.asPath}`}
         />
